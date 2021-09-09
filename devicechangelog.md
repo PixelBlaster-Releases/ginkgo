@@ -1,1 +1,21 @@
-
+# v3.0
+- September 2021 security patch
+- Updated build fp/desc to redfin September 2021
+- CTS passed by default
+- Update MIUI blobs to V12.0.2.0.RCOMIXM
+- Upstreamed QS kernel to v4.14.246
+- Fixed and labeled powerstats hal
+- Fixed random reboots during widevine L1 playback
+- Removed widevine firmware hack, R firmware is mandatory
+- Boost I/O during bootup to improve boot speed
+- Boost CPU during wake for faster faceunlock
+- Increased default f2fs checkpoint interval
+- Increased hispeed freq for big cluster
+- Disabled conservative PL boost
+- Reverted AOSP's old VM settings tweaks
+- Set voice call volume steps to 6
+- Fine tuned schedutil rate limits
+- Checkout audio policy config from MIUI Global Stable
+- Add support for LCD HBM and CABC in XiaomiParts
+- Update clear speaker audio from MIUI 12 in XiaomiParts
+- Misc optimizations and fixes
